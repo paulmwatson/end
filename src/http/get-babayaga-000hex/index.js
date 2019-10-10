@@ -10,6 +10,6 @@ exports.handler = async function http(req) {
     headers: {
       'content-type': 'text/html; charset=utf8'
     },
-    body: req.pathParameters
+    body: JSON.stringify(req.pathParameters),
   }
 }
