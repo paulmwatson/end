@@ -1,0 +1,7 @@
+{
+  "name": "begin-app-get-babayaga-000hex",
+  "dependencies": {
+    "@architect/functions": "latest",
+    "@begin/data": "latest"
+  }
+}
